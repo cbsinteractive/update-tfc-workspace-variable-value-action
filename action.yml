@@ -1,0 +1,37 @@
+name: Update TFC Workspace Variable Value
+description: Updates the value of a Terraform Cloud workspace variable
+inputs:
+  tfcToken:
+    description: A Terraform Cloud API token with access to manage the workspace
+    required: true
+  orgName:
+    description: The name of the Terraform Cloud organization where the workspace resides
+    required: true
+  workspaceName:
+    description: The name of the Terraform Cloud workspace
+    required: true
+  variableName:
+    description: The name of the variable
+    required: true
+  value:
+    description: The variable's initial value
+    required: false
+    default: ""
+runs:
+  using: "docker"
+  image: "docker://frostedcarbon/tfc-cli:v0.7.0"
+  args:
+    - workspaces
+    - variables
+    - update
+    - value
+    - -token
+    - ${{ inputs.tfcToken }}
+    - -org
+    - ${{ inputs.orgName }}
+    - -workspace
+    - ${{ inputs.workspaceName }}
+    - -key
+    - ${{ inputs.variableName }}
+    - -value
+    - ${{ inputs.value }}
