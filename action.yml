@@ -35,3 +35,6 @@ runs:
     - ${{ inputs.variableName }}
     - -value
     - ${{ inputs.value }}
+branding:
+  icon: arrow-up-right
+  color: blue
