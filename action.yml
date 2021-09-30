@@ -18,8 +18,8 @@ inputs:
     required: false
     default: ""
 runs:
-  using: "docker"
-  image: "docker://frostedcarbon/tfc-cli:v0.7.1"
+  using: docker
+  image: docker://frostedcarbon/tfc-cli:v0.7.1
   args:
     - workspaces
     - variables
