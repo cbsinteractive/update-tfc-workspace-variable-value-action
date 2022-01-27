@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/cbsinteractive/update-tfc-workspace-variable-value-action/compare/1.3.0...1.4.0) (2022-01-27)
+
+
+### Features
+
+* Rename action ([a72aea5](https://github.com/cbsinteractive/update-tfc-workspace-variable-value-action/commit/a72aea58e51ab7094b85ea8be0dad1aaffaae799))
+
 # [1.3.0](https://github.com/cbsinteractive/update-tfc-workspace-variable-value-action/compare/1.2.0...1.3.0) (2022-01-27)
 
 
