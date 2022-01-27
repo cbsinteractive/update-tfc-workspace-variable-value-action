@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/cbsinteractive/update-tfc-workspace-variable-value-action/compare/1.2.0...1.3.0) (2022-01-27)
+
+
+### Features
+
+* Rename action ([4775ad8](https://github.com/cbsinteractive/update-tfc-workspace-variable-value-action/commit/4775ad8adfc8d331908998e1cfa3d8d447f0cb9f))
+* Use tfc-cli v1.0.0 ([9c4d759](https://github.com/cbsinteractive/update-tfc-workspace-variable-value-action/commit/9c4d7599a239c67182dd03f11d55ab08eb5230a1))
+
 # [1.2.0](https://github.com/cbsinteractive/update-tfc-workspace-variable-value-action/compare/1.1.0...1.2.0) (2021-09-30)
 
 
