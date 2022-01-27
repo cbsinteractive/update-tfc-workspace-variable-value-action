@@ -1,4 +1,4 @@
-name: Update TFC Workspace Variable
+name: Update Terraform Cloud Workspace Variable
 description: Updates the value of a Terraform Cloud workspace variable
 inputs:
   tfcToken:
